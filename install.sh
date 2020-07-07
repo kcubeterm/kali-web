@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "privide your heroku app name"
+echo "provide your heroku app name"
 read appname
 rm -rf .git
 git init
