@@ -1,2 +1,2 @@
 #!/bin/bash
-neofetch
+#neofetch
