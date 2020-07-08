@@ -1,6 +1,3 @@
 #!/bin/bash
-touch "stimuli"
-git add .
-git commit -m "kk"
+git commit -m "kk" --allow-empty
 git push heroku master
-rm stimuli
