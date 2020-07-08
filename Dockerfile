@@ -3,6 +3,7 @@ RUN apt-get update && apt-get upgrade -y
 #RUN apt-get install -y openssh-server
 
 ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get install -y xfce4
 RUN apt-get install -y fakechroot
 RUN apt-get install -y --no-install-recommends build-essential cmake git libjson-c-dev libwebsockets-dev
 RUN apt-get install -y npm
@@ -12,6 +13,9 @@ RUN apt-get install -y fakeroot
 #RUN apt-get install -y ttyd
 #RUN apt-get install -y npm
 RUN apt-get install -y apt-utils
+RUN apt-get install -y git
+RUN apt-get install -y nano
+RUN apt-get install -y tigervnc-standalone-server
 #RUN apt-get install -y ubuntu-desktop tightvncserver
 #RUN yes 31 | apt install -y gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
 
