@@ -36,7 +36,7 @@ And execute install.sh
 
 ```bash install.sh```
 
-It ask for your heroku application, fill it and hit enter, after some time, if you don't get any error.
+It ask for your heroku application name, fill it and hit enter, after some time, if you don't get any error.
 
 You can view your kali terminal in https://appname.herokuapp.com
 
