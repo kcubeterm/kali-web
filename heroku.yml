@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run: 
-    web: ttyd -c kcubeterm:12345678 -p $PORT bash
+    web: ttyd -c USERNAME:PASSWORD -p $PORT bash
