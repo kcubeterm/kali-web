@@ -33,7 +33,9 @@ cd kali-web
 now open heroku.yml and replace `username` and `password` with any credentials 
 
 And execute install.sh
+
 ```bash install.sh```
+
 It ask for your heroku application, fill it and hit enter, after some time, if you don't get any error.
 
 You can view your kali terminal in https://appname.herokuapp.com
