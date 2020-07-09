@@ -1,4 +1,4 @@
-https://img.shields.io/badge/Kali-Latest-green https://img.shields.io/badge/Docker-kalilinux/kali-yellow
+![](https://img.shields.io/badge/Kali-Latest-green) ![](https://img.shields.io/badge/Docker-kalilinux/kali-yellow)
 
 # kali-web
 
