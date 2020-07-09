@@ -4,8 +4,11 @@ Do you want to host your terminal,and can be accessible from web browser
 
 ## Requirements:
 GIT
+
 Heroku cli
+
 A heroku account
+
 A blank heroku app
 
 
@@ -16,6 +19,7 @@ Login with heroku
 heroku login -i
 ```
 fill your heroku credentials 
+
 Now if you don't have blank application available ,create one by 
 ```
 heroku create {appname}
