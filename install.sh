@@ -6,5 +6,5 @@ git init
 
 heroku git:remote -a $appname
 heroku stack:set container
-bash trigger.sh
+bash push.sh
 
