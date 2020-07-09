@@ -1,3 +1,5 @@
+https://img.shields.io/badge/Kali-Latest-green https://img.shields.io/badge/Docker-kalilinux/kali-yellow
+
 # kali-web
 
 Do you want to host your terminal,and can be accessible from web browser
