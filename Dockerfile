@@ -22,8 +22,8 @@ COPY root.sh /usr/local/bin/root.sh
 COPY .bashrc $HOME/.bashrc
 RUN apt-get install -y wget 
 RUN apt-get install -y curl
-RUN dpkg --configure udev
-RUN dpkg --configure -a
+
+
 ADD https://github.com/tsl0922/ttyd/releases/download/1.6.1/ttyd_linux.x86_64 /usr/local/bin/ttyd
 RUN chmod +x /usr/local/bin/ttyd
 
